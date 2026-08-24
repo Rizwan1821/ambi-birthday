@@ -1,0 +1,72 @@
+@import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Angelic Bonques", sans-serif;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+  letter-spacing: -0.1rem;
+  line-height: 1.0;
+}
+h3 {
+  text-transform: uppercase;
+  letter-spacing: -0.1rem;
+  line-height: 1.0;
+}
+
+h1 {
+  font-size: clamp(3.5rem, 10vw, 15rem);
+}
+
+h3 {
+  font-size: clamp(2.5rem, 5vw, 7.5rem);
+}
+
+h4 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+section {
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  color: #d2d2d2;
+  overflow: hidden;
+}
+
+.hero {
+  height: 150svh;
+  background-color: #3a3939;
+  text-align: center;
+}
+
+.about {
+  height: 100svh;
+  background-color: #191818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    height: 125svh;
+  }
+}
