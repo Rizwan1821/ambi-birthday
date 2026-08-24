@@ -192,10 +192,6 @@ window.addEventListener("resize", () => {
   camera.updateProjectionMatrix();
   renderer.setSize(heroSection.clientWidth, heroSection.clientHeight);
 });
-/* =========================================
-   RIZ-ONE
-   PINK HEART CURSOR EFFECT
-   ========================================= */
 
 const heartLayer =
   document.getElementById("heartLayer");
@@ -342,9 +338,6 @@ function createCursorHeart(x, y) {
 }
 
 
-/* =========================================
-   MOUSE MOVEMENT
-   ========================================= */
 
 window.addEventListener(
   "mousemove",
